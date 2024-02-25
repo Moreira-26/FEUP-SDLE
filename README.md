@@ -1,5 +1,12 @@
 # SDLE
 
+## Description
+Development of a command line local-first shopping list application. This application allows users to create/edit shopping lists and share them through a cloud componet. The local-first approach allows users to edit their shopping list in offline mode. The cloud componet was designed using the concept of consistent hashing allowing the addition and removal of nodes/servers for high availability and scalability. This architecture was inspired by the [Amazon DynamoDB paper](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf). To ensure seamless collaboration, Conflict-free Replicated Data Types (CRDTs) were implemented.
+
+## Presentation/ Demo
+
+https://github.com/Moreira-26/FEUP-SDLE/assets/93392622/a8e43d61-f375-4066-aefa-bd907a2e20af
+
 ## Group G77
 
 | Name             | Number    |
@@ -43,8 +50,4 @@ Client:
 ```
     java -cp target/ShoppingList-1.0-SNAPSHOT.jar sdle.client.Cli -u user1 create shop1
 ```
-
-## Presentation
-
-Regarding the presentation, since the pdf is not able to play the video, a link to canva with a function video is available [here](https://www.canva.com/design/DAF2ZsPttno/7D3bvAIjOEdR5ARYkDdOAw/edit?utm_content=DAF2ZsPttno&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
