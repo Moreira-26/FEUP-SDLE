@@ -1,0 +1,2 @@
+PEERS = [peer1-localhost:5000,peer2-localhost:5001]
+

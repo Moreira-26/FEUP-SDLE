@@ -1,0 +1,2 @@
+NODES = [peer1-localhost:5000,peer2-localhost:5001,node1-localhost:5002,node2-localhost:5003]
+
